@@ -21,6 +21,7 @@ import AddEducation from './components/profile-forms/AddEducation';
 import Profiles from './components/profiles/Profiles';
 import Profile from './components/profile/Profile';
 import Posts from './components/posts/Posts';
+import PostForm from './components/posts/PostForm';
 
 if (localStorage.token) {
   setAuthToken(localStorage.token);
