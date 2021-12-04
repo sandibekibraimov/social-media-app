@@ -4,7 +4,7 @@ import { Link, Redirect } from 'react-router-dom';
 
 import { setAlert } from '../../actions/alert';
 import { register } from '../../actions/auth';
-import { SET_ALERT, REMOVE_ALERT } from '../../actions/types';
+// import { SET_ALERT, REMOVE_ALERT } from '../../actions/types';
 
 const Register = () => {
   const { isAuthenticated } = useSelector((state) => state.auth);

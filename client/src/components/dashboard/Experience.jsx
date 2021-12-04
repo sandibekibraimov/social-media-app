@@ -8,7 +8,7 @@ const Experience = ({ experience }) => {
   const dispatch = useDispatch();
 
   const experiences = experience.map((exp) => (
-    <tr key={exp.id}>
+    <tr key={exp._id}>
       <td>{exp.company}</td>
       <td className='hide-sm'>{exp.title}</td>
       <td className='hide-sm'>
