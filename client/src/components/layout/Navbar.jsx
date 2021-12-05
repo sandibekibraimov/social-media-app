@@ -26,10 +26,10 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <a href='#!' onClick={logoutHandler}>
+        <button onClick={logoutHandler} className='btn btn-primary'>
           <i className='fas fa-sign-out-alt'></i>{' '}
           <span className='hide-sm'>Sign Out</span>
-        </a>
+        </button>
       </li>
     </ul>
   );
