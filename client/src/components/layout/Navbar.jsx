@@ -14,7 +14,7 @@ const Navbar = () => {
   const authLinks = (
     <ul>
       <li>
-        <Link to='/profiles'>Developers</Link>
+        <Link to='/profiles'>Engineers</Link>
       </li>
       <li>
         <Link to='/posts'>Posts</Link>
@@ -22,13 +22,13 @@ const Navbar = () => {
       <li>
         <Link to='/dashboard'>
           <i className='fas fa-user'></i>{' '}
-          <span className='hide-sm'>Dashboard</span>
+          <span className='hide-sm'>Profile</span>
         </Link>
       </li>
       <li>
         <a href='#!' onClick={logoutHandler}>
           <i className='fas fa-sign-out-alt'></i>{' '}
-          <span className='hide-sm'>Logout</span>
+          <span className='hide-sm'>Sign Out</span>
         </a>
       </li>
     </ul>
@@ -37,16 +37,13 @@ const Navbar = () => {
   const guestLinks = (
     <ul>
       <li>
-        <Link to='/profiles'>Developers</Link>
+        <Link to='/profiles'>Engineers</Link>
       </li>
       <li>
-        <a href='!#'>Developers</a>
+        <Link to='/register'>Create Account</Link>
       </li>
       <li>
-        <Link to='/register'>Register</Link>
-      </li>
-      <li>
-        <Link to='/login'>Login</Link>
+        <Link to='/login'>Sign in</Link>
       </li>
     </ul>
   );
@@ -55,7 +52,7 @@ const Navbar = () => {
     <nav className='navbar bg-dark'>
       <h1>
         <Link to='/'>
-          <i className='fas fa-code'></i> DevConnector
+          <i className='fab fa-staylinked'></i> SocialMediaApp
         </Link>
       </h1>
       {!loading && (

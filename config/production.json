@@ -1,0 +1,4 @@
+{
+  "mongoUri": "mongodb+srv://admin:adminLion@cluster0.ixfdy.mongodb.net/mernDB?retryWrites=true&w=majority",
+  "mySecret": "MySecretKey"
+}
