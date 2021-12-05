@@ -45,6 +45,15 @@ const Navbar = () => {
       <li>
         <Link to='/login'>Sign in</Link>
       </li>
+      <li>
+        <a
+          href='https://github.com/sandibekibraimov/social-media-app'
+          target='_blank'
+          rel='noreferrer'
+        >
+          Github code
+        </a>
+      </li>
     </ul>
   );
 
